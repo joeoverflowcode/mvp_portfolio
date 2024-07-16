@@ -1,4 +1,5 @@
-import { background } from "../../assets";
+import { background, herobg } from "../../assets/";
+
 
 export const Rings = () => {
   return (
@@ -21,9 +22,9 @@ export const SideLines = () => {
 export const BackgroundCircles = () => {
   return (
     <>
-      <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"></div>
+      <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#51abff] to-[#304a30] rounded-full"></div>
+      <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#98cfd7] to-[#5959e2] rounded-full"></div>
+      <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88a1e5] to-[#1A1A32] rounded-full"></div>
     </>
   );
 };
@@ -34,7 +35,7 @@ export const HamburgerMenu = () => {
       <div className="absolute inset-0 opacity-[.03]">
         <img
           className="w-full h-full object-cover"
-          src={background}
+          src={herobg}
           width={688}
           height={953}
           alt="Background"

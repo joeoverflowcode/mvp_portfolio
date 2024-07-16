@@ -1,4 +1,6 @@
 import brainwave from "./brainwave.svg";
+import logoja from './logoja.svg'
+import logo from './logo.svg'
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -22,8 +24,12 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
+import line from './hero/line.png'
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import mainhero from './hero/mainhero.svg';
+import joehero from './hero/joehero.svg'
+import herobg from './hero/herobg.svg'
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -76,6 +82,12 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  logo,
+  logoja,
+  line,
+  herobg,
+  joehero,
+  mainhero,
   brainwave,
   check,
   check2,
