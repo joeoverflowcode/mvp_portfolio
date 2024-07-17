@@ -22,6 +22,10 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import dsd from "./dsd.png"
+import dvm from './devmountain.png'
+import tcc from './tcc.png'
+import unt from './unt.png'
 
 import curve from "./hero/curve.png";
 import line from './hero/line.png'
@@ -41,6 +45,12 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import js from './collaboration/js.svg'
+import ts from './collaboration/ts.svg'
+import tail from './collaboration/tail.svg'
+import re from './collaboration/re.svg'
+import next from './collaboration/next.svg'
+import ca from './collaboration/ca.svg'
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -74,6 +84,9 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
+import benCom from './benefits/ben-community.svg'
+import benFlask from './benefits/ben-flasks.svg'
+import benGears from './benefits/ben-gears.svg'
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -82,6 +95,19 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  unt,
+  dsd,
+  dvm,
+  tcc,
+  ca,
+  next,
+  re,
+  tail,
+  ts,
+  js,
+  benGears,
+  benFlask,
+  benCom,
   logo,
   logoja,
   line,

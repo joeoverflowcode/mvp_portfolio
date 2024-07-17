@@ -4,15 +4,18 @@ const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
       <h5 className="tagline mb-6 text-center text-n-1/50">
-        Bridging the Gap between Business and Technology
+        Affiliated member of the following organizations:
       </h5>
-      <ul className="flex">
-        {companyLogos.map((logo, index) => (
+      <ul className="flex mt-2">
+        {companyLogos.map((company) => (
           <li
-            className="flex items-center justify-center flex-1 h-[8.5rem]"
-            key={index}
+            className="flex flex-col items-center text-center justify-center flex-1 h-[8.5rem]"
+            key={company.index}
           >
-            <img src={logo} width={134} height={28} alt={logo} />
+            <img src={company.logo} width={80} height={28} alt={company.logo} />
+            <p className="mt-2">
+              {company.name}
+            </p>
           </li>
         ))}
       </ul>

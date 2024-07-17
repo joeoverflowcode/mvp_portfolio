@@ -1,4 +1,18 @@
 import {
+  unt,
+  dsd,
+  dvm,
+  tcc,
+  js,
+  logo,
+  ca,
+  re,
+  next,
+  tail,
+  ts,
+  benGears,
+  benFlask,
+  benCom,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
@@ -81,7 +95,25 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  {
+    logo: dsd,
+    name: "Dallas Software Developers"
+  },
+  {
+    logo: dvm,
+    name: "DevMountain"
+  },
+  {
+    logo: tcc,
+    name: "Texas Coding Club"
+  },
+  {
+    logo: unt,
+    name: "UNT Department of Economics"
+  }
+  // dsd, dvm, tcc, unt, ];
+];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -134,21 +166,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Modern JavaScript Frameworks",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Cutting Edge UI interfaces",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Design and Deployment Solutions",
   },
 ];
 
@@ -169,48 +201,102 @@ export const collabApps = [
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "Canva",
+    icon: ca,
     width: 36,
     height: 28,
+  }, 
+   {
+    id: "5",
+    title: "JavaScript",
+    icon: js,
+    width: 34,
+    height: 34,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Next",
+    icon: next,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "React",
+    icon: re,
     width: 34,
     height: 34,
   },
-  {
-    id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
-  },
+
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
+    title: "TypeScript",
+    icon: ts,
+    width: 34,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Tailwind",
+    icon: tail,
     width: 38,
     height: 32,
   },
 ];
 
+export const benefits = [
+  {
+    id: "1",
+    title: "Involved with Developer Community",
+    text: "Active attendee at developer bi-monthly events netwokring and meeting other technologists in the DFW area.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: benCom,
+    light: true,
+  },
+  {
+    id: "0",
+    title: "Forefront of Technology",
+    text: "I've dedicated over 2,000+ hours working with the technologies of modern web architecture and design.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benFlask,
+  },
+  {
+    id: "2",
+    title: "Able to Work Anywhere",
+    text: "I'm flexible to work remote or in office to meet project needs.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benGears,
+  },  
+  {
+    id: "4",
+    title: "Project Management",
+    text: "I have experience using various project management tools in order to optimize project metrics. ",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benFlask,
+  },
+  {
+    id: "3",
+    title: "Fast Response",
+    text: "I work quick to minimize the time needed for feature implementation or debugging.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benGears,
+    light: true,
+  },
+  {
+    id: "5",
+    title: "Leadership and Organization",
+    text: "Co-Founder of Texas Coding Club, a Dallas-based group for emerging programmers",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: benCom,
+  },
+
+];
 export const pricing = [
   {
     id: "0",
@@ -247,58 +333,6 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
-  {
-    id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
-];
 
 export const socials = [
   {

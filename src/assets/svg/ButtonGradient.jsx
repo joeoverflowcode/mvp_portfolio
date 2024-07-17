@@ -4,15 +4,15 @@ const ButtonGradient = () => {
       <defs>
         <linearGradient id="btn-left" x1="50%" x2="50%" y1="0%" y2="100%">
           <stop offset="0%" stopColor="#183c7d" />
-          <stop offset="100%" stopColor="#1d4692" />
+          <stop offset="100%" stopColor="#255bbd" />
         </linearGradient>
         <linearGradient id="btn-top" x1="100%" x2="0%" y1="50%" y2="50%">
-          <stop offset="0%" stopColor="#255bbd" />
-          <stop offset="100%" stopColor="#1d4692" />
+          <stop offset="0%" stopColor="#748ab1" />
+          <stop offset="100%" stopColor="#255bbd" />
         </linearGradient>
         <linearGradient id="btn-bottom" x1="100%" x2="0%" y1="50%" y2="50%">
           <stop offset="0%" stopColor="#3c74d9" />
-          <stop offset="100%" stopColor="#183c7d" />
+          <stop offset="100%" stopColor="#748ab1" />
         </linearGradient>
         <linearGradient
           id="btn-right"
@@ -22,7 +22,7 @@ const ButtonGradient = () => {
           y2="100%"
         >
           <stop offset="0%" stopColor="#3c74d9" />
-          <stop offset="100%" stopColor="#255bbd" />
+          <stop offset="100%" stopColor="#183c7d" />
         </linearGradient>
       </defs>
     </svg>

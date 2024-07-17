@@ -69,7 +69,7 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #6495ed, #5a86d5, #3f5d94, #283B5E, #3d4e6e)",
+          "conic-gradient(from 225deg, #457fe5, #3058a0, #b87eb0,#3058a0, #9163cd)",
       },
     },
   },
