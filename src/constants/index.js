@@ -116,9 +116,9 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Generates Business",
+  "Inovative Design",
+  "Elegant Style",
 ];
 
 export const brainwaveServicesIcons = [
@@ -256,7 +256,7 @@ export const benefits = [
   },
   {
     id: "0",
-    title: "Forefront of Technology",
+    title: "Innovative Technologies",
     text: "I've dedicated over 2,000+ hours working with the technologies of modern web architecture and design.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
