@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Inolvement with Tech Community"
-          text="'The challenges of the future are determined how well we work with others and how we engage with our peers.'"
+          title="How I get involved"
+          text={"Coming together is a beginning, staying together is progress, and working together is success. \n — Henry Ford"}
         />
 
         <div className="relative">
@@ -32,7 +32,7 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
+            <div className="relative z-1 max-w-[17rem] sm:ml-auto flex flex-col items-end text-right">
               <h4 className="h4 mb-4">Let's work together!</h4>
               <p className="body-2 mb-[3rem] text-n-3">
                 
@@ -67,9 +67,9 @@ Joe actively participates in local developer community events, learning from exp
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Involved with Technology Groups and University Alumni</h4>
+                <h4 className="h4 mb-4">Involved with Local Tech Community</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                Lorem ipsum&apos;s dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Joe actively builds relationships within the Dallas/Fort Worth area. He is recognized at developer meetups, the UNT Alumni Association, and local tech companies.
                  
                 </p>
               </div>
@@ -79,9 +79,9 @@ Joe actively participates in local developer community events, learning from exp
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Collaborating and Meeting With Other Tech Enthusiasts</h4>
+                <h4 className="h4 mb-4">Co-Founder of the Texas Coding Club</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  Lorem Ipsum uolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Joe tries to collaborate with a variety of technologists in his area. He started the Texas Coding Club in an effort to develop the tech presence in the DFW area. 
                 </p>
 
                 <ul className="flex items-center justify-between">

@@ -9,7 +9,7 @@ import { Gradient } from "./design/Roadmap";
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="What we’re working on" />
+      <Heading tag="What I am currently working on" title="Ask me about my following projects" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
@@ -57,8 +57,8 @@ const Roadmap = () => (
                       alt={item.title}
                     />
                   </div>
-                  <h4 className="h4 mb-4">{item.title}</h4>
-                  <p className="body-2 text-n-4">{item.text}</p>
+                  <h4 className="h4 mb-4"><span className=" h4">Problem: </span>{item.title}</h4>
+                  <p className="body-2 text-n-4"><span className="font-bold text-xl">Solution:</span> {item.text}</p>
                 </div>
               </div>
             </div>

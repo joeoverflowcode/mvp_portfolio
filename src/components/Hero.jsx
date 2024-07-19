@@ -27,8 +27,17 @@ const Hero = () => {
             <img
               src={herobg}
               className="w-full opacity-20"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
+              alt="hero"
+            />
+          </div>
+          <div className="absolute -top-60 left-40 w-[40%] -translate-x-1/2 ">
+            <img
+              src={herobg}
+              className="w-full opacity-20"
+              width={200}
+              height={200}
               alt="hero"
             />
           </div>

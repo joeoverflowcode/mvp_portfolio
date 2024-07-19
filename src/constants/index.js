@@ -116,42 +116,43 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Generates Business",
-  "Inovative Design",
-  "Elegant Style",
+  "Open to Collaborate",
+  "Mentoring",
+  "Apprenticeship",
+  "Hackathons"
 ];
 
 export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+  figma,
+  ca,
+  discord,
+  notion,
+  slack,
 ];
 
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Gaining Access to Protected Marketing Accounts",
+    text: "Customer seeking a technical solution in order to streamline Authentication and Admin Authorization Permissions",
+    date: "July 2024",
+    status: "progress",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Increasing Lead Conversions",
+    text: "Create a landing page with modern UI elements that drive customer engagements and generates more leads.",
+    date: "February 2024",
+    status: "done",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Texas Coding Club",
+    text: "Coding group for emerging DFW software developers",
+    date: "March 2023",
     status: "done",
     imageUrl: roadmap3,
   },
