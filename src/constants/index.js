@@ -116,9 +116,8 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Open to Collaborate",
-  "Mentoring",
-  "Apprenticeship",
+  "Open to Collaboration",
+  "Mentor and Apprenticeships",
   "Hackathons"
 ];
 

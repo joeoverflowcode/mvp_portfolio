@@ -8,6 +8,7 @@ import {
   VideoBar,
   VideoChatMessage,
 } from "./design/Services";
+import Button from "./Button";
 
 import Generating from "./Generating";
 
@@ -36,7 +37,11 @@ const Services = () => {
               <h4 className="h4 mb-4">Let's work together!</h4>
               <p className="body-2 mb-[3rem] text-n-3">
                 
-Joe actively participates in local developer community events, learning from experienced peers and mentoring newcomers. He considers community involvement one of his key skills.
+Joe actively participates in local developer community events, learning from experienced peers and mentoring newcomers. Check Out his resume.
+<Button className='mt-4' href="#resume" white>
+              Resume
+            </Button>
+
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
