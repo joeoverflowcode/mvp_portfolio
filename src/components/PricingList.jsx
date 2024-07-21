@@ -4,19 +4,19 @@ import Button from "./Button";
 
 const PricingList = () => {
   return (
-    <div className="flex gap-[1rem] max-lg:flex-wrap">
+    <div className="flex gap-[1rem] max-lg:flex-wrap ">
       {pricing.map((item) => (
         <div
           key={item.id}
-          className="w-[19rem] max-lg:w-full h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
+          className="w-[28rem]  h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-blue-400 [&>h4]:even:text-purple-400 [&>h4]:last:text-blue-400"
         >
           <h4 className="h4 mb-4">{item.title}</h4>
 
-          <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
+          <p className="body-2 min-h-[4rem] mb-8 text-n-1/50">
             {item.description}
           </p>
 
-          <div className="flex items-center h-[5.5rem] mb-6">
+          {/* <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
                 <div className="h3">$</div>
@@ -25,14 +25,27 @@ const PricingList = () => {
                 </div>
               </>
             )}
-          </div>
+          </div> */}
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
-            white={!!item.price}
+            href={    
+              (() => {
+              switch (item.headline) {
+                case 'employ':
+                  return 'mailto:aguado.joe@gmail.com?subject=Employment Inquiry';
+                case 'collab':
+                  return 'mailto:aguado.joe@gmail.com?subject=Collaboration Inquiry';
+                case 'contract':
+                  return 'mailto:aguado.joe@gmail.com?subject=Contract or Consulting Inquiry';
+                default:
+                  return 'mailto:aguado.joe@gmail.com';
+              }
+            })()
+          }
+            white={!!item.button}
           >
-            {item.price ? "Get started" : "Contact us"}
+            {item.button ? "Email" : "Contact"}
           </Button>
 
           <ul>

@@ -50,11 +50,18 @@ import {
   yourlogo,
 } from "../assets";
 
+import { FaHome, FaGithub, FaLinkedinIn, FaGithubAlt } from 'react-icons/fa';
+
 export const navigation = [
   {
     id: "0",
     title: "About",
     url: "#about",
+  },
+  {
+    id: "3",
+    title: "Skills",
+    url: "#skills",
   },
   {
     id: "2",
@@ -63,13 +70,8 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Involvement",
-    url: "#involvement",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Resume",
+    url: "#resume",
   },
   // {
   //   id: "4",
@@ -149,17 +151,17 @@ export const roadmap = [
   },
   {
     id: "2",
-    title: "Texas Coding Club",
-    text: "Coding group for emerging DFW software developers",
+    title: "Creating a Community for Developers in the DFW area",
+    text: "Texas Coding Club was established in order to create physical presense to engineers wanting to hone in on their skills. TCC hosts meetups, peer reviews and builds projects. ",
     date: "March 2023",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Building With Modern Web Frameworks",
+    text: "From making simple command-line functions to finding a way to host and deploy modern websites, Joe has come a long way finding deployment solutions for his projects. Joe maintains a blog using Next.js and Typescript in order to progress his modern technology skillset. ",
+    date: "June 2024",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -300,35 +302,39 @@ export const benefits = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Collaboration",
+    description: "Open to working on small projects with other aspiring developers. I'm looking to increase my contribution to open source projects",
+    button: null,
+    headline: 'collab',
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Open-Source Projects",
+      "DFW Meetups",
+      "Hackathons",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Full or Part-Time Employment",
+    description: "Let's get in touch today regarding employment opportunities. Onsite or remote location solutions. Flexible hours to meet your workforce requirements.",
+    button: "email",
+    headline: 'employ',
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Front-End",
+      "Back-End",
+      "Design",
+      "Authentication & Authorization solutions",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Consulting and Contract Work",
+    description: "Have an idea for a website? Let me design and build it for you.",
+    button: null,
+    headline: 'contract',
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Landing Pages",
+      "Portfolio Pages",
+      "About Me Websites",
     ],
   },
 ];
@@ -342,27 +348,23 @@ export const socials = [
     url: "#",
   },
   {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
     url: "#",
   },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
+
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
   },
+];
+
+
+export const socialMediaLinks = [
+  {name: 'Home', href: 'https://joeoverflowcode.github.io', icon: FaHome},
+  { name: 'LinkedIn', href: 'https://www.linkedin.com', icon: FaLinkedinIn},
+  { name: 'Github', href: 'https://github.com/joeoverflowcode/', icon: FaGithubAlt },
 ];
