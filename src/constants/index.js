@@ -118,9 +118,10 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Open to Collaboration",
-  "Mentor and Apprenticeships",
-  "Hackathons"
+  "Collaboration Work",
+  "Mentorship",
+  "Apprenticeship",
+  "Hackathons",
 ];
 
 export const brainwaveServicesIcons = [
@@ -251,7 +252,7 @@ export const benefits = [
     id: "1",
     title: "Involved with Developer Community",
     text: "Active attendee at developer bi-monthly events netwokring and meeting other technologists in the DFW area.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "/mvp_portfolio/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benCom,
     light: true,
@@ -260,7 +261,7 @@ export const benefits = [
     id: "0",
     title: "Innovative Technologies",
     text: "I've dedicated over 2,000+ hours working with the technologies of modern web architecture and design.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "/mvp_portfolio/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benFlask,
   },
@@ -268,7 +269,7 @@ export const benefits = [
     id: "2",
     title: "Able to Work Anywhere",
     text: "I'm flexible to work remote or in office to meet project needs.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: "/mvp_portfolio/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benGears,
   },  
@@ -276,7 +277,7 @@ export const benefits = [
     id: "4",
     title: "Project Management",
     text: "I have experience using various project management tools in order to optimize project metrics. ",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "/mvp_portfolio/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benFlask,
   },
@@ -284,7 +285,7 @@ export const benefits = [
     id: "3",
     title: "Fast Response",
     text: "I work quick to minimize the time needed for feature implementation or debugging.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: "/mvp_portfolio/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benGears,
     light: true,
@@ -293,7 +294,7 @@ export const benefits = [
     id: "5",
     title: "Leadership and Organization",
     text: "Co-Founder of Texas Coding Club, a Dallas-based group for emerging programmers",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "/mvp_portfolio/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benCom,
   },

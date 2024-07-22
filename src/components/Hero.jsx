@@ -36,7 +36,7 @@ const Hero = () => {
             <img
               src={herobg}
               className="w-full opacity-20"
-              width={200}
+              width={100}
               height={200}
               alt="hero"
             />
@@ -44,7 +44,7 @@ const Hero = () => {
           <h1 className="h1 mb-6 ">
             Solving the Business <span className="text-blue-400"> <br />Problems of {` `}</span>
             <span className="inline-block relative text-blue-400">
-               Today{" "}
+               Tomorrow{" "}
               {/* <img
                 src={line}
                 className="absolute w-full -translate-y-3  rotate-6 -z-1"
@@ -75,7 +75,7 @@ const Hero = () => {
               <div className="aspect-[33/40] rounded-[0.9rem] overflow-hidden   ">
                 <img
                   src={joehero}
-                  className="max-w-96 rounded-t-[.9rem] scale-[1.7] translate-x-[05%] translate-y-[30%]  "
+                  className="max-w-80 rounded-t-[.9rem] scale-[1.7] translate-x-[05%] translate-y-[30%]  "
                   width={1024}
                   height={490}
                   alt="AI"

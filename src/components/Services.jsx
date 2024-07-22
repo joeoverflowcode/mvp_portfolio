@@ -22,35 +22,37 @@ const Services = () => {
         />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <div className="absolute top-0 -left-40 sm:-left-30 md:left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+          <div className="relative z-1 flex flex-col h-[35rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden  xl:h-[46rem]">
+            <div className="absolute -left-32 -bottom-32 lg:-bottom-24 lg:-left-20 w-full h-full pointer-events-none xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
-                width={800}
+                className="w-full h-full object-contain"
                 alt="Smartest AI"
                 height={730}
                 src={service1}
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] sm:ml-auto flex flex-col items-end text-right">
+            <div className="relative z-1 flex flex-col items-end ml:auto text-right ">
               <h4 className="h4 mb-4">Let's work together!</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
+              <p className="body-2 text-n-3 max-w-[30rem]">
                 
-Joe actively participates in local developer community events, learning from experienced peers and mentoring newcomers. Check Out his resume.
-<Button className='mt-4' href="#resume" white>
-              Resume
-            </Button>
+I actively participate in local developer community events, learning from experienced peers and mentoring newcomers. Check out my resume.
 
               </p>
-              <ul className="body-2">
+              <div className="">
+
+<Button className='my-4'  target="_blank" rel="noopener noreferrer" href='/Aguado2024.pdf' white>
+              Resume
+            </Button>
+              </div>
+              <ul className="body-3 flex flex-col justify-start items-start ">
                 {brainwaveServices.map((item, index) => (
                   <li
                     key={index}
-                    className="flex items-start py-4 border-t border-n-6"
+                    className="flex py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
+                    <img width={18} height={20} src={check} />
+                    <p className="ml-2">{item}</p>
                   </li>
                 ))}
               </ul>
@@ -74,7 +76,7 @@ Joe actively participates in local developer community events, learning from exp
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Involved with Local Tech Community</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                Joe actively builds relationships within the Dallas/Fort Worth area. He is recognized at developer meetups, the UNT Alumni Association, and local tech companies.
+                Joe builds relationships within the Dallas/Fort Worth area. He is recognized at developer meetups, the UNT Alumni Association, and local tech companies.
                  
                 </p>
               </div>

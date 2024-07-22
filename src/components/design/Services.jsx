@@ -17,7 +17,7 @@ export const Gradient = () => {
 
 export const PhotoChatMessage = () => {
   return (
-    <div className="absolute top-80 left-10 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-xl ">
+    <div className="absolute top-8 right-10 w-[15rem] py-2 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-lg ">
       Say Cheese! 😃
       <ChatBubbleWing className="absolute left-full bottom-0" />
     </div>
@@ -26,7 +26,7 @@ export const PhotoChatMessage = () => {
 
 export const VideoChatMessage = () => {
   return (
-    <div className="absolute top-8 right-[8rem] w-full max-w-[14rem] pt-2.5 pr-2.5 pb-7 pl-5 bg-n-6 rounded-t-xl rounded-bl-xl font-code text-base md:max-w-[17.5rem]">
+    <div className="absolute top-8 right-[8rem] w-full w-[10rem] pt-2.5 pr-2.5 pb-7 pl-5 bg-n-6 rounded-t-xl rounded-bl-xl font-code text-base md:max-w-[17.5rem]">
       Let's Hack!
       <div className="absolute right-10 -bottom-[1.125rem] flex items-center justify-center w-[2.5rem] h-[2.5rem] bg-white border-2 border-black rounded-[0.75rem]">
         <img
