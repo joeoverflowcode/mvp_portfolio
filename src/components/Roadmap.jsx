@@ -70,7 +70,7 @@ const Roadmap = () => (
 
       <div className="flex flex-col items-center mt-12 md:mt-15 xl:mt-20">
         Want to read more about the challenges I overcome as a developer? 
-        <Button className='mt-10' href="/roadmap">My Blog</Button>
+        <Button className='mt-10' target="_blank" rel="noopener noreferrer" href="https://next-blog-zeta-seven.vercel.app/">My Blog</Button>
       </div>
     </div>
   </Section>

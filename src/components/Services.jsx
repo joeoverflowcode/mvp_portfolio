@@ -88,7 +88,7 @@ I actively participate in local developer community events, learning from experi
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Co-Founder of the Texas Coding Club</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  Joe tries to collaborate with a variety of technologists in his area. He started the Texas Coding Club in an effort to develop the tech presence in the DFW area. 
+                  Joe collaborates with a variety of technologists in his area. He started the Texas Coding Club in an effort to develop the tech presence in the DFW area. 
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -104,7 +104,7 @@ I actively participate in local developer community events, learning from experi
                       <div
                         className={
                           index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
+                            ? "flex items-center justify-center w-full h-full rounded-[1rem]"
                             : ""
                         }
                       >
@@ -115,13 +115,11 @@ I actively participate in local developer community events, learning from experi
                 </ul>
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+              <div className="relative h-[20rem] rounded-xl md:h-[25rem] ">
                 <img
                   src={service3}
-                  className="w-full h-full object-cover"
-                  width={520}
-                  height={400}
-                  alt="Scary robot"
+                  className="w-full h-full object-contain md:object-cover"
+                  alt="Scary robot"   
                 />
 
                 <VideoChatMessage />

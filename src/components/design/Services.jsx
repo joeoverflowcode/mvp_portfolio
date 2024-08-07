@@ -26,9 +26,9 @@ export const PhotoChatMessage = () => {
 
 export const VideoChatMessage = () => {
   return (
-    <div className="absolute top-8 right-[8rem] w-full w-[10rem] pt-2.5 pr-2.5 pb-7 pl-5 bg-n-6 rounded-t-xl rounded-bl-xl font-code text-base md:max-w-[17.5rem]">
+    <div className="absolute top-4 right-1/4  w-[10rem]  pt-3 pb-6 pl-5 bg-n-6 rounded-t-xl rounded-bl-xl font-code text-base md:max-w-[17.5rem]">
       Let's Hack!
-      <div className="absolute right-10 -bottom-[1.125rem] flex items-center justify-center w-[2.5rem] h-[2.5rem] bg-white border-2 border-black rounded-[0.75rem]">
+      <div className="absolute right-4 -bottom-[1.125rem] flex items-center justify-center w-[2.5rem] h-[2.5rem] bg-white border-2 border-black rounded-[0.75rem]">
         <img
           src={logo}
           width={30}
