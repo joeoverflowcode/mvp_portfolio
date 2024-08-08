@@ -135,8 +135,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Gaining Access to Protected Marketing Accounts",
-    text: "Customer seeking a technical solution in order to streamline Authentication and Admin Authorization Permissions",
+    title: "Streamlining Onboarding Process",
+    text: "Customer seeking authorization solution to access and manage multi-client social media accounts",
     date: "July 2024",
     status: "progress",
     imageUrl: roadmap1,
@@ -145,34 +145,34 @@ export const roadmap = [
   {
     id: "1",
     title: "Increasing Lead Conversions",
-    text: "Create a landing page with modern UI elements that drive customer engagements and generates more leads.",
+    text: "Create a landing page with modern UI elements that drive customer engagement and generates more leads.",
     date: "February 2024",
     status: "done",
     imageUrl: roadmap2,
     colorful: true,
   },
   {
+    id: "3",
+    title: "Establishing Online Presence for Clients",
+    text: "Working with Real Estate Agents to increase their digital presence by creating professional landing pages that link all of their agency assets.",
+    date: "June 2024",
+    status: "progress",
+    imageUrl: roadmap4,
+    colorful: true,
+  },
+  {
     id: "2",
-    title: "Creating a Community for Developers in the DFW area",
+    title: "Creating a Community for Student Developers",
     text: "Texas Coding Club was established in order to create physical presense to engineers wanting to hone in on their skills. TCC hosts meetups, peer reviews and builds projects. ",
     date: "March 2023",
     status: "done",
     imageUrl: roadmap3,
     colorful: true,
   },
-  {
-    id: "3",
-    title: "Building With Modern Web Frameworks",
-    text: "From making simple command-line functions to finding a way to host and deploy modern websites, Joe has come a long way finding deployment solutions for his projects. Joe maintains a blog using Next.js and Typescript in order to progress his modern technology skillset. ",
-    date: "June 2024",
-    status: "progress",
-    imageUrl: roadmap4,
-    colorful: true,
-  },
 ];
 
 export const collabText =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+  "I strive to find the most optimal solutions for the problems on hand. My goal is to deliver a product my customer is truly happy with.";
 
 export const collabContent = [
   {
@@ -252,9 +252,17 @@ export const collabApps = [
 
 export const benefits = [
   {
+    id: "2",
+    title: "Based in Dallas, Texas",
+    text: "Flexible to work remote or in office to meet project needs.",
+    backgroundUrl: "/mvp_portfolio/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benGears,
+  },  
+  {
     id: "1",
     title: "Involved with Developer Community",
-    text: "Active attendee at developer bi-monthly events netwokring and meeting other technologists in the DFW area.",
+    text: "Active attendee at developer events networking and meeting other technologists in the DFW area.",
     backgroundUrl: "/mvp_portfolio/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benCom,
@@ -263,31 +271,23 @@ export const benefits = [
   {
     id: "0",
     title: "Innovative Technologies",
-    text: "I've dedicated over 2,000+ hours working with the technologies of modern web architecture and design.",
+    text: "Consistently improving skillset as I progress and gain industry experience of the most effective technical solutions",
     backgroundUrl: "/mvp_portfolio/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benFlask,
   },
   {
-    id: "2",
-    title: "Able to Work Anywhere",
-    text: "I'm flexible to work remote or in office to meet project needs.",
-    backgroundUrl: "/mvp_portfolio/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benGears,
-  },  
-  {
     id: "4",
-    title: "Project Management",
-    text: "I have experience using various project management tools in order to optimize project metrics. ",
+    title: "Project Management Experience",
+    text: "Experienced using various project management tools in order to optimize project delivery and smetrics.",
     backgroundUrl: "/mvp_portfolio/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benFlask,
   },
   {
     id: "3",
-    title: "Fast Response",
-    text: "I work quick to minimize the time needed for feature implementation or debugging.",
+    title: "Quick Product Turnaround",
+    text: "Implement planning and building protocols that result in fast product deliveries.",
     backgroundUrl: "/mvp_portfolio/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benGears,

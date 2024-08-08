@@ -76,7 +76,7 @@ I actively participate in local developer community events, learning from experi
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Involved with Local Tech Community</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                Joe builds relationships within the Dallas/Fort Worth area. He is recognized at developer meetups, the UNT Alumni Association, and local tech companies.
+                Joe builds relationships within the Dallas/Fort Worth area. He attends developer meetups, the UNT Alumni Association meetings, and outreach events with local tech companies.
                  
                 </p>
               </div>
