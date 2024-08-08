@@ -136,7 +136,7 @@ export const roadmap = [
   {
     id: "0",
     title: "Streamlining Onboarding Process",
-    text: "Customer seeking authorization solution to access and manage multi-client social media accounts",
+    text: "Marketing Agency seeking authorization solution to access and manage multi-client social media accounts",
     date: "July 2024",
     status: "progress",
     imageUrl: roadmap1,
@@ -145,7 +145,7 @@ export const roadmap = [
   {
     id: "1",
     title: "Increasing Lead Conversions",
-    text: "Create a landing page with modern UI elements that drive customer engagement and generates more leads.",
+    text: "Create a landing page for Behavioral Clinic with modern UI elements that drive customer engagement and generates more leads.",
     date: "February 2024",
     status: "done",
     imageUrl: roadmap2,
@@ -153,7 +153,7 @@ export const roadmap = [
   },
   {
     id: "3",
-    title: "Establishing Online Presence for Clients",
+    title: "Establishing Online Presence",
     text: "Working with Real Estate Agents to increase their digital presence by creating professional landing pages that link all of their agency assets.",
     date: "June 2024",
     status: "progress",

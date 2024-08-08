@@ -31,11 +31,13 @@
 
 ## <a name="introduction">🚨 Introduction </a>
 
-As I continue to network as a developer, one of the projects I constantly get asked to show is my portfolio. There are many tutorials out there and they all seem to give a similar feel and experience. I wanted to step outside of the box with this project and see if I could transform a project intended for a product/SAAS and style it so that it was transformed into a personal portfolio.
+As I network in professional environments, I've come to find that having a strong portfolio is crucial in making professional progress. Some argue that recruiters and employers never see them but I have come to find out that that in real life, one-on-one interactions, a portfolio is important to have. 
+
+I've been working on a few components that I want to showcase in order to demonstrate their effectiveness in a Portfolio. As I gain feedback, my aim is to be able to combine my strongest components in order to implement a singular responsive portfolio.
 
 ## <a name="introduction">⚛️ About the Project</a>
 
-This website, was developed using React.js, Tailwind CSS, and it follows modern UI/UX principles. The responsive code makes the project accessible to most devices. Please keep in mind that the purpose of the project is to get further feed-back on what the possibilities of portfolio project can and can not be. 
+This project, was developed using React.js, Tailwind CSS, and it follows modern UI/UX principles. The responsive code makes the project accessible to most devices. Please keep in mind that the purpose of the project is to get further feed-back on what the possibilities of portfolio project can and can not be. 
 
 
 
