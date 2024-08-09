@@ -162,8 +162,8 @@ export const roadmap = [
   },
   {
     id: "2",
-    title: "Creating a Community for Student Developers",
-    text: "Texas Coding Club was established in order to create physical presense to engineers wanting to hone in on their skills. TCC hosts meetups, peer reviews and builds projects. ",
+    title: "Creating a Community",
+    text: "Texas Coding Club was established in order to create physical presense for student developers wanting to hone in on their developting skills. TCC hosts meetups, peer reviews and builds projects. ",
     date: "March 2023",
     status: "done",
     imageUrl: roadmap3,
@@ -177,16 +177,18 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Modern JavaScript Frameworks",
-    text: collabText,
+    title: "Modern Web Frameworks, Libraries and Languages",
+    text: 'TypeScript, Next.js, Tailwind CSS ',
   },
   {
     id: "1",
     title: "Cutting Edge UI interfaces",
+    text:'Shadcn, Aceternity '
   },
   {
     id: "2",
     title: "Design and Deployment Solutions",
+    text:'Github Actions, Github Pages'
   },
 ];
 
